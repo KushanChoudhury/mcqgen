@@ -13,3 +13,5 @@ logging.basicConfig(level=logging.INFO,
         filename=LOG_FILE_PATH,
         format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"
 )
+
+logger = logging.getLogger("mcq_app_logger")
